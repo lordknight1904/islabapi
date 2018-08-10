@@ -59,6 +59,7 @@ export default function dummyData() {
         address: person.address,
         year: person.year,
         profilePage: person.profilePage,
+        dateCreated: new Date(paper.dateCreated),
         imagePath: imagePath !== '' ? `http://islab.snu.ac.kr/${imagePath}` : '',
       });
     });
