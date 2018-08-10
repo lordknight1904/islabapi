@@ -42,7 +42,7 @@ export function addPaper(req, res, next) {
   let pdfPath = '', filePath = '';
   if (reqPaper.pdfBase64) {
     const matches = reqPaper.pdfBase64.match(/^data:([A-Za-z-+\/]+);base64,(.+)$/);
-    pdfPath = (matches && matches.length === 3) ? `http://localhost:4000/file/${cuid()}.pdf` : '';
+    pdfPath = (matches && matches.length === 3) ? `http://islab.snu.ac.kr/file/${cuid()}.pdf` : '';
     fs.writeFileSync(pdfPath, new Buffer(matches[2], 'base64'), { encoding: 'base64' });
   }
   if (reqPaper.fileBase64) {

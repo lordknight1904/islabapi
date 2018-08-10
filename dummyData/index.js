@@ -30,8 +30,8 @@ export default function dummyData() {
         name: paper.name,
         authors: paper.authors,
         submittedTo: paper.submittedTo,
-        pdfPath: paper.pdfPath ? paper.pdfPath : (pdfPath !== '' ? `http://localhost:4000/${pdfPath}` : ''),
-        zip: zipPath !== '' ? `http://localhost:4000/${zipPath}` : '',
+        pdfPath: paper.pdfPath ? paper.pdfPath : (pdfPath !== '' ? `http://islab.snu.ac.kr/${pdfPath}` : ''),
+        zip: zipPath !== '' ? `http://islab.snu.ac.kr/${zipPath}` : '',
       });
     });
     Paper.create(papers, (err) => {
@@ -58,7 +58,7 @@ export default function dummyData() {
         address: person.address,
         year: person.year,
         profilePage: person.profilePage,
-        imagePath: imagePath !== '' ? `http://localhost:4000/${imagePath}` : '',
+        imagePath: imagePath !== '' ? `http://islab.snu.ac.kr/${imagePath}` : '',
       });
     });
     Person.create(people, (err) => {
@@ -83,8 +83,8 @@ export default function dummyData() {
           }
           return {
             name,
-            filePath: filePath !== '' ? `http://localhost:4000/${filePath}` : '',
-            solutionPath: solutionPath !== '' ? `http://localhost:4000/${solutionPath}` : '',
+            filePath: filePath !== '' ? `http://islab.snu.ac.kr/${filePath}` : '',
+            solutionPath: solutionPath !== '' ? `http://islab.snu.ac.kr/${solutionPath}` : '',
           };
         });
       }

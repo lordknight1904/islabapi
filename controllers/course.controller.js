@@ -30,7 +30,7 @@ export function getCourse(req, res, next) {
 export function addCourse(req, res, next) {
   const reqCourse = req.body.course;
   const matches = reqCourse.pdfBase64.match(/^data:([A-Za-z-+\/]+);base64,(.+)$/);
-  const pdfPath = (matches && matches.length === 3) ? `http://localhost:4000/file/${cuid()}.pdf` : '';
+  const pdfPath = (matches && matches.length === 3) ? `http://islab.snu.ac.kr/file/${cuid()}.pdf` : '';
   fs.writeFile(pdfPath, new Buffer(matches[2], 'base64'), { encoding: 'base64' }, (err) => {
     if (!err) {
       const course = new Course({
