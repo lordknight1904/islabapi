@@ -1,8 +1,9 @@
 import fs from 'fs';
 
 function base64_encode(file) {
-  return fs.readFileSync(__dirname + `/paperPDF/${file}`, {encoding: 'base64'});
+  return fs.readFileSync(__dirname + `/paperPDF/${file}`, { encoding: 'base64' });
 }
+
 const conferenceArr = [
   38,
 ];
@@ -40,7 +41,7 @@ const paper = [
     ],
     submittedTo: 'IEEE Transactions on Information Theory',
     published: true,
-dateCreated: '2018-08-09 09:01:03.062Z'
+    dateCreated: '2018-08-09 09:01:03.062Z'
   },
   {
     type: 'Journal',
@@ -53,7 +54,7 @@ dateCreated: '2018-08-09 09:01:03.062Z'
     ],
     submittedTo: 'IEEE Journal on Selected Areas in Communications (JSAC)',
     published: true,
-dateCreated: '2018-08-09 08:59:03.062Z'
+    dateCreated: '2018-08-09 08:59:03.062Z'
   },
   {
     type: 'Journal',
@@ -68,7 +69,7 @@ dateCreated: '2018-08-09 08:59:03.062Z'
     submittedTo: 'IEEE Transactions on Signal Processing',
     published: true,
     pdf: journal['journal3'],
-dateCreated: '2018-08-09 08:58:03.062Z'
+    dateCreated: '2018-08-09 08:58:03.062Z'
   },
   {
     type: 'Journal',
@@ -81,7 +82,7 @@ dateCreated: '2018-08-09 08:58:03.062Z'
     ],
     submittedTo: 'IEEE Signal Processing Letters',
     published: true,
-dateCreated: '2018-08-09 08:57:03.062Z'
+    dateCreated: '2018-08-09 08:57:03.062Z'
   },
   {
     type: 'Journal',
@@ -94,7 +95,7 @@ dateCreated: '2018-08-09 08:57:03.062Z'
     ],
     submittedTo: 'IEEE Journal on Selected Areas in Communications (JSAC)',
     published: true,
-dateCreated: '2018-08-09 08:56:03.062Z'
+    dateCreated: '2018-08-09 08:56:03.062Z'
   },
   {
     type: 'Journal',
@@ -107,7 +108,7 @@ dateCreated: '2018-08-09 08:56:03.062Z'
     submittedTo: 'IEEE Transactions on Wireless Communications',
     published: false,
     pdf: journal['journal6'],
-dateCreated: '2018-08-09 08:55:03.062Z'
+    dateCreated: '2018-08-09 08:55:03.062Z'
   },
   {
     type: 'Journal',
@@ -120,7 +121,7 @@ dateCreated: '2018-08-09 08:55:03.062Z'
     submittedTo: 'IEEE Transactions on Vehicular Technology',
     published: false,
     pdf: journal['journal7'],
-dateCreated: '2018-08-09 08:54:03.062Z'
+    dateCreated: '2018-08-09 08:54:03.062Z'
   },
   {
     type: 'Journal',
@@ -135,7 +136,7 @@ dateCreated: '2018-08-09 08:54:03.062Z'
     submittedTo: 'IEEE Transactions on Communications',
     published: false,
     pdf: journal['journal8'],
-dateCreated: '2018-08-09 08:53:03.062Z'
+    dateCreated: '2018-08-09 08:53:03.062Z'
   },
   {
     type: 'Journal',
@@ -151,7 +152,7 @@ dateCreated: '2018-08-09 08:53:03.062Z'
     submittedTo: 'IEEE Wireless Communications, vol. 25, no. 3, pp. 124-130 , June. 2018',
     published: true,
     pdf: journal['journal9'],
-dateCreated: '2018-08-09 08:52:03.062Z'
+    dateCreated: '2018-08-09 08:52:03.062Z'
   },
   {
     type: 'Journal',
@@ -164,7 +165,7 @@ dateCreated: '2018-08-09 08:52:03.062Z'
     submittedTo: 'IEEE Wireless Communications Letters, vol. 7, no. 1, pp. 2162-2337, Feb. 2018',
     published: true,
     pdf: journal['journal10'],
-dateCreated: '2018-08-09 08:51:03.062Z'
+    dateCreated: '2018-08-09 08:51:03.062Z'
   },
   {
     type: 'Journal',
@@ -179,7 +180,7 @@ dateCreated: '2018-08-09 08:51:03.062Z'
     submittedTo: 'IEEE Transactions on Communications, vol. 66, no. 2, pp. 796-807, Feb. 2018',
     published: true,
     pdf: journal['journal11'],
-dateCreated: '2018-08-09 08:50:03.062Z'
+    dateCreated: '2018-08-09 08:50:03.062Z'
   },
   {
     type: 'Journal',
@@ -193,7 +194,7 @@ dateCreated: '2018-08-09 08:50:03.062Z'
     submittedTo: 'IEEE Transactions on Wireless Communications, vol. 17, no. 1, pp. 461-476, Jan. 2018',
     published: true,
     pdf: journal['journal12'],
-dateCreated: '2018-08-09 08:49:03.062Z'
+    dateCreated: '2018-08-09 08:49:03.062Z'
   },
   {
     type: 'Journal',
@@ -205,7 +206,7 @@ dateCreated: '2018-08-09 08:49:03.062Z'
     submittedTo: 'IEEE Transactions on Signal Processing, vol. 65, no. 22, pp. 6038-6052 , Nov. 2017',
     published: true,
     pdf: journal['journal13'],
-dateCreated: '2018-08-09 08:48:03.062Z'
+    dateCreated: '2018-08-09 08:48:03.062Z'
   },
   {
     type: 'Journal',
@@ -219,7 +220,7 @@ dateCreated: '2018-08-09 08:48:03.062Z'
     submittedTo: 'ACM Mobile Networks & Applications (MONET), vol. 22, pp. 377-382, June. 2017',
     published: true,
     pdf: journal['journal14'],
-dateCreated: '2018-08-09 08:47:03.062Z'
+    dateCreated: '2018-08-09 08:47:03.062Z'
   },
   {
     type: 'Journal',
@@ -234,7 +235,7 @@ dateCreated: '2018-08-09 08:47:03.062Z'
     submittedTo: 'IEEE Communications Survey and Tutorials, vol. 19, no. 3, pp. 1527-1550, 2017',
     published: true,
     pdf: journal['journal15'],
-dateCreated: '2018-08-09 08:46:03.062Z'
+    dateCreated: '2018-08-09 08:46:03.062Z'
   },
   {
     type: 'Journal',
@@ -248,7 +249,7 @@ dateCreated: '2018-08-09 08:46:03.062Z'
     submittedTo: 'IEEE Transactions on Communications, vol. 65, no. 6, pp. 2397-2410, June. 2017',
     published: true,
     pdf: journal['journal16'],
-dateCreated: '2018-08-09 08:45:03.062Z'
+    dateCreated: '2018-08-09 08:45:03.062Z'
   },
   {
     type: 'Journal',
@@ -266,7 +267,7 @@ dateCreated: '2018-08-09 08:45:03.062Z'
     submittedTo: 'IEEE Communications Magazine, vol. 55, pp. 176-184, Feb. 2017',
     published: true,
     pdf: journal['journal17'],
-dateCreated: '2018-08-09 08:44:03.062Z'
+    dateCreated: '2018-08-09 08:44:03.062Z'
   },
   {
     type: 'Journal',
@@ -279,7 +280,7 @@ dateCreated: '2018-08-09 08:44:03.062Z'
     submittedTo: 'IEEE Journal on Selected Areas in Communications (JSAC), vol. 34, no. 12, pp. 3798-3713, Dec. 2016',
     published: true,
     pdf: journal['journal18'],
-dateCreated: '2018-08-09 08:43:03.062Z'
+    dateCreated: '2018-08-09 08:43:03.062Z'
   },
   {
     type: 'Journal',
@@ -293,7 +294,7 @@ dateCreated: '2018-08-09 08:43:03.062Z'
     submittedTo: 'IEEE Transactions on Vehicular Technology, vol. 65, no. 12, pp. 10188-10192, Dec. 2016',
     published: true,
     pdf: journal['journal19'],
-dateCreated: '2018-08-09 08:42:03.062Z'
+    dateCreated: '2018-08-09 08:42:03.062Z'
   },
   {
     type: 'Journal',
@@ -306,7 +307,7 @@ dateCreated: '2018-08-09 08:42:03.062Z'
     submittedTo: 'Journal of Communications and Networks, vol. 18, no. 5, pp. 699-712, Oct. 2016',
     published: true,
     pdf: journal['journal20'],
-dateCreated: '2018-08-09 08:41:03.062Z'
+    dateCreated: '2018-08-09 08:41:03.062Z'
   },
   {
     type: 'Journal',
@@ -321,7 +322,7 @@ dateCreated: '2018-08-09 08:41:03.062Z'
     submittedTo: 'IEEE Transactions on Vehicular Technology, vol. 65, no. 10, pp. 8762-8767, Oct. 2016',
     published: true,
     pdf: journal['journal21'],
-dateCreated: '2018-08-09 08:40:03.062Z'
+    dateCreated: '2018-08-09 08:40:03.062Z'
   },
   {
     type: 'Journal',
@@ -333,7 +334,7 @@ dateCreated: '2018-08-09 08:40:03.062Z'
     submittedTo: 'IEEE Transactions on Signal Processing, vol. 64, no. 16, pp. 4194-4202, Aug. 2016',
     published: true,
     pdf: journal['journal22'],
-dateCreated: '2018-08-09 08:39:03.062Z'
+    dateCreated: '2018-08-09 08:39:03.062Z'
   },
   {
     type: 'Journal',
@@ -348,7 +349,7 @@ dateCreated: '2018-08-09 08:39:03.062Z'
     submittedTo: 'IEEE Transactions on Communications, vol. 64, no. 2, pp. 601-617, Feb. 2016',
     published: true,
     pdf: journal['journal23'],
-dateCreated: '2018-08-09 08:38:03.062Z'
+    dateCreated: '2018-08-09 08:38:03.062Z'
   },
   {
     type: 'Journal',
@@ -362,7 +363,7 @@ dateCreated: '2018-08-09 08:38:03.062Z'
     submittedTo: 'IEEE Transactions on Signal Processing, vol. 64, no. 4, pp. 1076-1089, Feb. 2016',
     published: true,
     pdf: journal['journal24'],
-dateCreated: '2018-08-09 08:37:03.062Z'
+    dateCreated: '2018-08-09 08:37:03.062Z'
   },
   {
     type: 'Journal',
@@ -377,7 +378,7 @@ dateCreated: '2018-08-09 08:37:03.062Z'
     submittedTo: 'IEEE Communications Letters, vol. 19, no. 12, pp. 2178-2181, Dec. 2015',
     published: true,
     pdf: journal['journal25'],
-dateCreated: '2018-08-09 08:36:03.062Z'
+    dateCreated: '2018-08-09 08:36:03.062Z'
   },
   {
     type: 'Journal',
@@ -390,7 +391,7 @@ dateCreated: '2018-08-09 08:36:03.062Z'
     submittedTo: 'Journal of Communications and Networks, vol 17. no. 6, pp. 609-621, Dec. 2015',
     published: true,
     pdf: journal['journal26'],
-dateCreated: '2018-08-09 08:35:03.062Z'
+    dateCreated: '2018-08-09 08:35:03.062Z'
   },
   {
     type: 'Journal',
@@ -403,7 +404,7 @@ dateCreated: '2018-08-09 08:35:03.062Z'
     submittedTo: 'IEEE Communications Letters, vol. 19, no. 11, pp. 1889-1892, Nov. 2015',
     published: true,
     pdf: journal['journal27'],
-dateCreated: '2018-08-09 08:34:03.062Z'
+    dateCreated: '2018-08-09 08:34:03.062Z'
   },
   {
     type: 'Journal',
@@ -419,7 +420,7 @@ dateCreated: '2018-08-09 08:34:03.062Z'
     submittedTo: 'IEEE Journal on Selected Areas in Communications (JSAC), vol. 33, no. 11, pp. 2269-2271, Nov. 2015',
     published: true,
     pdf: journal['journal28'],
-dateCreated: '2018-08-09 08:33:03.062Z'
+    dateCreated: '2018-08-09 08:33:03.062Z'
   },
   {
     type: 'Journal',
@@ -431,7 +432,7 @@ dateCreated: '2018-08-09 08:33:03.062Z'
     submittedTo: 'IEEE Transactions on Signal Processing, vol. 63, no. 22, pp. 6136-6148, Nov. 2015',
     published: true,
     pdf: journal['journal29'],
-dateCreated: '2018-08-09 08:32:03.062Z'
+    dateCreated: '2018-08-09 08:32:03.062Z'
   },
   {
     type: 'Journal',
@@ -446,7 +447,7 @@ dateCreated: '2018-08-09 08:32:03.062Z'
     submittedTo: 'IEEE Transactions on Communications, vol. 63, no. 9, pp. 3261-3274, Sept. 2015',
     published: true,
     pdf: journal['journal30'],
-dateCreated: '2018-08-09 08:31:03.062Z'
+    dateCreated: '2018-08-09 08:31:03.062Z'
   },
   {
     type: 'Journal',
@@ -462,7 +463,7 @@ dateCreated: '2018-08-09 08:31:03.062Z'
     submittedTo: 'IEEE Journal on Selected Areas in Communications (JSAC), vol. 33, no. 7, pp. 1285-1287, July. 2015',
     published: true,
     pdf: journal['journal31'],
-dateCreated: '2018-08-09 08:30:03.062Z'
+    dateCreated: '2018-08-09 08:30:03.062Z'
   },
   {
     type: 'Journal',
@@ -475,7 +476,7 @@ dateCreated: '2018-08-09 08:30:03.062Z'
     submittedTo: 'IEEE Transactions on Signal Processing, vol. 63, no. 12, pp. 3032-3045, June. 2015',
     published: true,
     pdf: journal['journal32'],
-dateCreated: '2018-08-09 08:29:03.062Z'
+    dateCreated: '2018-08-09 08:29:03.062Z'
   },
   {
     type: 'Journal',
@@ -489,7 +490,7 @@ dateCreated: '2018-08-09 08:29:03.062Z'
     published: true,
     pdf: journal['journal33'],
     zip: zip['zip33'],
-dateCreated: '2018-08-09 08:29:03.062Z'
+    dateCreated: '2018-08-09 08:29:03.062Z'
   },
   {
     type: 'Journal',
@@ -503,7 +504,7 @@ dateCreated: '2018-08-09 08:29:03.062Z'
     published: true,
     pdf: journal['journal34'],
     zip: zip['zip34'],
-dateCreated: '2018-08-09 08:27:03.062Z'
+    dateCreated: '2018-08-09 08:27:03.062Z'
   },
   {
     type: 'Journal',
@@ -518,7 +519,7 @@ dateCreated: '2018-08-09 08:27:03.062Z'
     submittedTo: 'IEEE Communications Magazine,pp 127-135, March 2013',
     published: true,
     pdf: journal['journal35'],
-dateCreated: '2018-08-09 08:26:03.062Z'
+    dateCreated: '2018-08-09 08:26:03.062Z'
   },
   {
     type: 'Journal',
@@ -532,7 +533,7 @@ dateCreated: '2018-08-09 08:26:03.062Z'
     published: true,
     pdf: journal['journal36'],
     zip: zip['zip36'],
-dateCreated: '2018-08-09 08:25:03.062Z'
+    dateCreated: '2018-08-09 08:25:03.062Z'
   },
   {
     type: 'Journal',
@@ -544,7 +545,7 @@ dateCreated: '2018-08-09 08:25:03.062Z'
     submittedTo: 'IEEE Transactions on Communications, vol. 60, no. 11, pp. 3322-3331, Nov. 2012',
     published: true,
     pdf: journal['journal37'],
-dateCreated: '2018-08-09 08:24:03.062Z'
+    dateCreated: '2018-08-09 08:24:03.062Z'
   },
   {
     type: 'Journal',
@@ -558,7 +559,7 @@ dateCreated: '2018-08-09 08:24:03.062Z'
     submittedTo: 'IEEE Transactions on Vehicular Technology,vol. 61, no. 7, pp. 3301-3306, Sept. 2012',
     published: true,
     pdf: journal['journal38'],
-dateCreated: '2018-08-09 08:23:03.062Z'
+    dateCreated: '2018-08-09 08:23:03.062Z'
   },
   {
     type: 'Journal',
@@ -570,7 +571,7 @@ dateCreated: '2018-08-09 08:23:03.062Z'
     submittedTo: 'IEEE Transactions on Signal Processing, vol. 60, no. 9, pp. 4973-4976, Sept. 2012',
     published: true,
     pdf: journal['journal39'],
-dateCreated: '2018-08-09 08:22:03.062Z'
+    dateCreated: '2018-08-09 08:22:03.062Z'
   },
   {
     type: 'Journal',
@@ -584,7 +585,7 @@ dateCreated: '2018-08-09 08:22:03.062Z'
     published: true,
     pdf: journal['journal40'],
     zip: zip['zip40'],
-dateCreated: '2018-08-09 08:21:03.062Z'
+    dateCreated: '2018-08-09 08:21:03.062Z'
   },
   {
     type: 'Journal',
@@ -597,7 +598,7 @@ dateCreated: '2018-08-09 08:21:03.062Z'
     submittedTo: 'IEEE Transactions on Wireless Communications, vol. 11, no. 7, pp. 2508-2519, July 2012',
     published: true,
     pdf: journal['journal41'],
-dateCreated: '2018-08-09 08:20:03.062Z'
+    dateCreated: '2018-08-09 08:20:03.062Z'
   },
   {
     type: 'Journal',
@@ -609,7 +610,7 @@ dateCreated: '2018-08-09 08:20:03.062Z'
     submittedTo: 'IEEE Communications Letters, vol. 16, no. 7, pp. 972-974, July 2012',
     published: true,
     pdf: journal['journal42'],
-dateCreated: '2018-08-09 08:19:03.062Z'
+    dateCreated: '2018-08-09 08:19:03.062Z'
   },
   {
     type: 'Journal',
@@ -622,7 +623,7 @@ dateCreated: '2018-08-09 08:19:03.062Z'
     submittedTo: 'Journal of Communications and Networks, vol. 14, no. 3, pp 273-279, June 2012',
     published: true,
     pdf: journal['journal43'],
-dateCreated: '2018-08-09 08:18:03.062Z'
+    dateCreated: '2018-08-09 08:18:03.062Z'
   },
   {
     type: 'Journal',
@@ -635,7 +636,7 @@ dateCreated: '2018-08-09 08:18:03.062Z'
     submittedTo: 'IEEE Transactions on Information Theory, vol. 58, no. 3, pp. 1518-1533, March 2012',
     published: true,
     pdf: journal['journal44'],
-dateCreated: '2018-08-09 08:17:03.062Z'
+    dateCreated: '2018-08-09 08:17:03.062Z'
   },
   {
     type: 'Journal',
@@ -647,7 +648,7 @@ dateCreated: '2018-08-09 08:17:03.062Z'
     ],
     submittedTo: 'Eurasip Journal on Advances in Signal Processing, Jan. 2012',
     published: true,
-dateCreated: '2018-08-09 08:16:03.062Z'
+    dateCreated: '2018-08-09 08:16:03.062Z'
   },
   {
     type: 'Journal',
@@ -660,7 +661,7 @@ dateCreated: '2018-08-09 08:16:03.062Z'
     submittedTo: 'IEEE Transactions on Communications, vol. 60, pp. 569-577, Feb. 2012',
     published: true,
     pdf: journal['journal46'],
-dateCreated: '2018-08-09 08:15:03.062Z'
+    dateCreated: '2018-08-09 08:15:03.062Z'
   },
   {
     type: 'Journal',
@@ -676,7 +677,7 @@ dateCreated: '2018-08-09 08:15:03.062Z'
     submittedTo: 'IEEE Transactions on Visualization and Computer Graphics, vol. 16, no. 6, pp. 1525-1532, Dec. 2010',
     published: true,
     pdf: journal['journal47'],
-dateCreated: '2018-08-09 08:14:03.062Z'
+    dateCreated: '2018-08-09 08:14:03.062Z'
   },
   {
     type: 'Journal',
@@ -690,7 +691,7 @@ dateCreated: '2018-08-09 08:14:03.062Z'
     submittedTo: 'IEEE Transactions on Signal Processing, vol. 58, no. 3, pp. 1780-1793, March 2010',
     published: true,
     pdf: journal['journal48'],
-dateCreated: '2018-08-09 08:13:03.062Z'
+    dateCreated: '2018-08-09 08:13:03.062Z'
   },
   {
     type: 'Journal',
@@ -702,7 +703,7 @@ dateCreated: '2018-08-09 08:13:03.062Z'
     submittedTo: 'IEEE Transactions on Communications, vol. 58, no. 2, pp. 417-422, Feb. 2010',
     published: true,
     pdf: journal['journal49'],
-dateCreated: '2018-08-09 08:12:03.062Z'
+    dateCreated: '2018-08-09 08:12:03.062Z'
   },
   {
     type: 'Journal',
@@ -715,7 +716,7 @@ dateCreated: '2018-08-09 08:12:03.062Z'
     submittedTo: 'IEEE Signal Processing Letters, vol. 16, pp. 1035-1038, Dec. 2009',
     published: true,
     pdf: journal['journal50'],
-dateCreated: '2018-08-09 08:11:03.062Z'
+    dateCreated: '2018-08-09 08:11:03.062Z'
   },
   {
     type: 'Journal',
@@ -728,7 +729,7 @@ dateCreated: '2018-08-09 08:11:03.062Z'
     submittedTo: 'BMC Bioinformatics, pp. 1-10, Nov. 2009',
     published: true,
     pdf: journal['journal51'],
-dateCreated: '2018-08-09 08:10:03.062Z'
+    dateCreated: '2018-08-09 08:10:03.062Z'
   },
   {
     type: 'Journal',
@@ -740,7 +741,7 @@ dateCreated: '2018-08-09 08:10:03.062Z'
     submittedTo: 'IEEE Signal Processing Letters, vol. 16, no. 9, pp. 778-781, Sept. 2009',
     published: true,
     pdf: journal['journal52'],
-dateCreated: '2018-08-09 08:09:03.062Z'
+    dateCreated: '2018-08-09 08:09:03.062Z'
   },
   {
     type: 'Journal',
@@ -758,7 +759,7 @@ dateCreated: '2018-08-09 08:09:03.062Z'
     submittedTo: 'Bioinformatics, vol. 25, no. 9, pp. 1137-1144, Sept. 2009',
     published: true,
     pdf: journal['journal53'],
-dateCreated: '2018-08-09 08:08:03.062Z'
+    dateCreated: '2018-08-09 08:08:03.062Z'
   },
   {
     type: 'Journal',
@@ -771,7 +772,7 @@ dateCreated: '2018-08-09 08:08:03.062Z'
     published: true,
     pdf: journal['journal54'],
     zip: zip['zip54'],
-dateCreated: '2018-08-09 08:07:03.062Z'
+    dateCreated: '2018-08-09 08:07:03.062Z'
   },
   {
     type: 'Journal',
@@ -785,7 +786,7 @@ dateCreated: '2018-08-09 08:07:03.062Z'
     submittedTo: 'IEEE Transactions on Signal Processing, vol. 55, no. 10, pp. 5084-5096, Oct., 2007',
     published: true,
     pdf: journal['journal55'],
-dateCreated: '2018-08-09 08:06:03.062Z'
+    dateCreated: '2018-08-09 08:06:03.062Z'
   },
   {
     type: 'Journal',
@@ -797,7 +798,7 @@ dateCreated: '2018-08-09 08:06:03.062Z'
     submittedTo: 'IEEE Transactions on VLSI systems, vol. 14, no. 4, pp. 336-348, April, 2006',
     published: true,
     pdf: journal['journal56'],
-dateCreated: '2018-08-09 08:05:03.062Z'
+    dateCreated: '2018-08-09 08:05:03.062Z'
   },
   {
     type: 'Journal',
@@ -810,7 +811,7 @@ dateCreated: '2018-08-09 08:05:03.062Z'
     submittedTo: 'IEEE Transactions on VLSI systems, vol. 12, no. 5, pp.497-510, May 2004',
     published: true,
     pdf: journal['journal57'],
-dateCreated: '2018-08-09 08:04:03.062Z'
+    dateCreated: '2018-08-09 08:04:03.062Z'
   },
   {
     type: 'Journal',
@@ -822,7 +823,7 @@ dateCreated: '2018-08-09 08:04:03.062Z'
     submittedTo: 'IEEE Transactions on Signal Processing, vol. 50, no. 1, pp.282-293, Jan. 2003',
     published: true,
     pdf: journal['journal58'],
-dateCreated: '2018-08-09 08:03:03.062Z'
+    dateCreated: '2018-08-09 08:03:03.062Z'
   },
 
   {
@@ -834,7 +835,7 @@ dateCreated: '2018-08-09 08:03:03.062Z'
     ],
     submittedTo: 'IEEE workshop on signal processing advances in wireless communications (SPAWC) 2018',
     published: false,
-dateCreated: '2018-08-09 08:02:03.062Z'
+    dateCreated: '2018-08-09 08:02:03.062Z'
   },
   {
     type: 'Conference',
@@ -845,7 +846,7 @@ dateCreated: '2018-08-09 08:02:03.062Z'
     ],
     submittedTo: 'IEEE international symposium on information theory (ISIT) 2018',
     published: false,
-dateCreated: '2018-08-09 08:01:03.062Z'
+    dateCreated: '2018-08-09 08:01:03.062Z'
   },
   {
     type: 'Conference',
@@ -870,7 +871,7 @@ dateCreated: '2018-08-09 08:01:03.062Z'
     ],
     submittedTo: 'Proc. of IEEE workshop on signal processing advances in wireless communications (SPAWC) 2017',
     published: true,
-dateCreated: '2018-08-09 07:58:03.062Z'
+    dateCreated: '2018-08-09 07:58:03.062Z'
   },
   {
     type: 'Conference',
@@ -884,7 +885,7 @@ dateCreated: '2018-08-09 07:58:03.062Z'
     ],
     submittedTo: 'Proc. of IEEE workshop on signal processing advances in wireless communications (SPAWC) 2017Proc. of IEEE workshop on signal processing advances in wireless communications (SPAWC) 2017',
     published: true,
-dateCreated: '2018-08-09 07:57:03.062Z'
+    dateCreated: '2018-08-09 07:57:03.062Z'
   },
   {
     type: 'Conference',
@@ -900,7 +901,7 @@ dateCreated: '2018-08-09 07:57:03.062Z'
     submittedTo: 'Proc. of IEEE international conf. on communications (ICC) 2017',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/7996518/',
-dateCreated: '2018-08-09 07:56:03.062Z'
+    dateCreated: '2018-08-09 07:56:03.062Z'
   },
   {
     type: 'Conference',
@@ -913,7 +914,7 @@ dateCreated: '2018-08-09 07:56:03.062Z'
     submittedTo: 'Proc. of IEEE international conf. on communications (ICC) 2017',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/7996952/',
-dateCreated: '2018-08-09 07:55:03.062Z'
+    dateCreated: '2018-08-09 07:55:03.062Z'
   },
   {
     type: 'Conference',
@@ -927,7 +928,7 @@ dateCreated: '2018-08-09 07:55:03.062Z'
     submittedTo: 'Proc. of International conf. on acoustics, speech, and signal processing (ICASSP) 2017',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/7952826/',
-dateCreated: '2018-08-09 07:54:03.062Z'
+    dateCreated: '2018-08-09 07:54:03.062Z'
   },
   {
     type: 'Conference',
@@ -941,7 +942,7 @@ dateCreated: '2018-08-09 07:54:03.062Z'
     submittedTo: 'Proc. of IEEE international conf. on communication systems (ICCS) 2016',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/7833599/',
-dateCreated: '2018-08-09 07:53:03.062Z'
+    dateCreated: '2018-08-09 07:53:03.062Z'
   },
   {
     type: 'Conference',
@@ -956,7 +957,7 @@ dateCreated: '2018-08-09 07:53:03.062Z'
     submittedTo: 'Proc. of IEEE GLOBECOM conference 2016',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/7842122/',
-dateCreated: '2018-08-09 07:52:03.062Z'
+    dateCreated: '2018-08-09 07:52:03.062Z'
   },
   {
     type: 'Conference',
@@ -969,7 +970,7 @@ dateCreated: '2018-08-09 07:52:03.062Z'
     submittedTo: 'Proc. of IEEE/CIC international conf. on communications in China (CIC/ICCC) 2016',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/7636900/',
-dateCreated: '2018-08-09 07:51:03.062Z'
+    dateCreated: '2018-08-09 07:51:03.062Z'
   },
   {
     type: 'Conference',
@@ -983,7 +984,7 @@ dateCreated: '2018-08-09 07:51:03.062Z'
     submittedTo: 'Proc. of Vehicular technology conference (VTC) 2016',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/7881966/',
-dateCreated: '2018-08-09 07:50:03.062Z'
+    dateCreated: '2018-08-09 07:50:03.062Z'
   },
   {
     type: 'Conference',
@@ -996,7 +997,7 @@ dateCreated: '2018-08-09 07:50:03.062Z'
     submittedTo: 'Proc. of IEEE international conf. on communications (ICC) 2016',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/7511519/',
-dateCreated: '2018-08-09 07:49:03.062Z'
+    dateCreated: '2018-08-09 07:49:03.062Z'
   },
   {
     type: 'Conference',
@@ -1009,7 +1010,7 @@ dateCreated: '2018-08-09 07:49:03.062Z'
     submittedTo: 'Proc. of IEEE international conf. on acoustics, speech, and signal processing (ICASSP) 2016',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/7471819/',
-dateCreated: '2018-08-09 07:48:03.062Z'
+    dateCreated: '2018-08-09 07:48:03.062Z'
   },
   {
     type: 'Conference',
@@ -1022,7 +1023,7 @@ dateCreated: '2018-08-09 07:48:03.062Z'
     submittedTo: 'Proc. of information theory and application workshop (ITA) 2016',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/7888154/',
-dateCreated: '2018-08-09 07:47:03.062Z'
+    dateCreated: '2018-08-09 07:47:03.062Z'
   },
   {
     type: 'Conference',
@@ -1034,7 +1035,7 @@ dateCreated: '2018-08-09 07:47:03.062Z'
     submittedTo: 'Proc. of IEEE international symposium on information theory (ISIT) 2015',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/7282919/',
-dateCreated: '2018-08-09 07:46:03.062Z'
+    dateCreated: '2018-08-09 07:46:03.062Z'
   },
   {
     type: 'Conference',
@@ -1051,7 +1052,7 @@ dateCreated: '2018-08-09 07:46:03.062Z'
     submittedTo: 'Proc. of IEEE personal indoor mobile radio communications (PIMRC) symposium 2015',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/7343690/',
-dateCreated: '2018-08-09 07:45:03.062Z'
+    dateCreated: '2018-08-09 07:45:03.062Z'
   },
   {
     type: 'Conference',
@@ -1065,7 +1066,7 @@ dateCreated: '2018-08-09 07:45:03.062Z'
     submittedTo: 'Proc. of IEEE personal indoor mobile radio communications (PIMRC) symposium 2015',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/7343275/',
-dateCreated: '2018-08-09 07:44:03.062Z'
+    dateCreated: '2018-08-09 07:44:03.062Z'
   },
   {
     type: 'Conference',
@@ -1077,7 +1078,7 @@ dateCreated: '2018-08-09 07:44:03.062Z'
     submittedTo: 'Proc. of IEEE international conf. on acoustics, speech, and signal processing (ICASSP) 2015',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/7178526/',
-dateCreated: '2018-08-09 07:43:03.062Z'
+    dateCreated: '2018-08-09 07:43:03.062Z'
   },
   {
     type: 'Conference',
@@ -1089,7 +1090,7 @@ dateCreated: '2018-08-09 07:43:03.062Z'
     submittedTo: 'Proc. of information theory and application workshop (ITA) 2015',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/7308974/',
-dateCreated: '2018-08-09 07:42:03.062Z'
+    dateCreated: '2018-08-09 07:42:03.062Z'
   },
   {
     type: 'Conference',
@@ -1101,7 +1102,7 @@ dateCreated: '2018-08-09 07:42:03.062Z'
     submittedTo: 'Proc. of IEEE Vehicular technology conference (VTC) 2014',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/7022817/',
-dateCreated: '2018-08-09 07:41:03.062Z'
+    dateCreated: '2018-08-09 07:41:03.062Z'
   },
   {
     type: 'Conference',
@@ -1113,7 +1114,7 @@ dateCreated: '2018-08-09 07:41:03.062Z'
     submittedTo: 'Proc. of IEEE GLOBECOM conference 2014',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/7037392/',
-dateCreated: '2018-08-09 07:40:03.062Z'
+    dateCreated: '2018-08-09 07:40:03.062Z'
   },
   {
     type: 'Conference',
@@ -1126,7 +1127,7 @@ dateCreated: '2018-08-09 07:40:03.062Z'
     submittedTo: 'Proc. of IEEE GLOBECOM conference 2014',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/7037316/',
-dateCreated: '2018-08-09 07:39:03.062Z'
+    dateCreated: '2018-08-09 07:39:03.062Z'
   },
   {
     type: 'Conference',
@@ -1139,7 +1140,7 @@ dateCreated: '2018-08-09 07:39:03.062Z'
     submittedTo: 'Proc. of IEEE international symposium on information theory (ISIT) 2014',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/6875153/?arnumber=6875153',
-dateCreated: '2018-08-09 07:38:03.062Z'
+    dateCreated: '2018-08-09 07:38:03.062Z'
   },
   {
     type: 'Conference',
@@ -1154,7 +1155,7 @@ dateCreated: '2018-08-09 07:38:03.062Z'
     submittedTo: 'Proc. of IEEE international conf. on communications (ICC) 2014',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/7166317/',
-dateCreated: '2018-08-09 07:37:03.062Z'
+    dateCreated: '2018-08-09 07:37:03.062Z'
   },
   {
     type: 'Conference',
@@ -1168,7 +1169,7 @@ dateCreated: '2018-08-09 07:37:03.062Z'
     submittedTo: 'Proc. of Information Theory and Application Workshop (ITA) 2014',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/6804285/',
-dateCreated: '2018-08-09 07:36:03.062Z'
+    dateCreated: '2018-08-09 07:36:03.062Z'
   },
   {
     type: 'Conference',
@@ -1181,7 +1182,7 @@ dateCreated: '2018-08-09 07:36:03.062Z'
     submittedTo: 'Proc. of IEEE GLOBECOM conference 2013',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/6831647/',
-dateCreated: '2018-08-09 07:35:03.062Z'
+    dateCreated: '2018-08-09 07:35:03.062Z'
   },
   {
     type: 'Conference',
@@ -1194,7 +1195,7 @@ dateCreated: '2018-08-09 07:35:03.062Z'
     submittedTo: 'Proc. of IEEE international symposium on information theory (ISIT) 2013',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/6620347/',
-dateCreated: '2018-08-09 07:34:03.062Z'
+    dateCreated: '2018-08-09 07:34:03.062Z'
   },
   {
     type: 'Conference',
@@ -1208,7 +1209,7 @@ dateCreated: '2018-08-09 07:34:03.062Z'
     submittedTo: 'Proc. of IEEE international conference on communications (ICC) 2013',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/6655332/',
-dateCreated: '2018-08-09 07:33:03.062Z'
+    dateCreated: '2018-08-09 07:33:03.062Z'
   },
   {
     type: 'Conference',
@@ -1222,7 +1223,7 @@ dateCreated: '2018-08-09 07:33:03.062Z'
     submittedTo: 'Proc. of IEEE wireless communications and networking conference (WCNC) 2013',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/6555014/',
-dateCreated: '2018-08-09 07:32:03.062Z'
+    dateCreated: '2018-08-09 07:32:03.062Z'
   },
   {
     type: 'Conference',
@@ -1236,7 +1237,7 @@ dateCreated: '2018-08-09 07:32:03.062Z'
     submittedTo: 'Proc. of IEEE international conference on communications (ICC) 2012',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/6364376/',
-dateCreated: '2018-08-09 07:31:03.062Z'
+    dateCreated: '2018-08-09 07:31:03.062Z'
   },
   {
     type: 'Conference',
@@ -1250,7 +1251,7 @@ dateCreated: '2018-08-09 07:31:03.062Z'
     submittedTo: 'Proc. of IEEE international conference on communications (ICC) 2012',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/6364260/',
-dateCreated: '2018-08-09 07:30:03.062Z'
+    dateCreated: '2018-08-09 07:30:03.062Z'
   },
   {
     type: 'Conference',
@@ -1263,7 +1264,7 @@ dateCreated: '2018-08-09 07:30:03.062Z'
     submittedTo: 'Proc. of Information Theory and Application Workshop (ITA) 2012',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/6181806/',
-dateCreated: '2018-08-09 07:29:03.062Z'
+    dateCreated: '2018-08-09 07:29:03.062Z'
   },
   {
     type: 'Conference',
@@ -1275,7 +1276,7 @@ dateCreated: '2018-08-09 07:29:03.062Z'
     submittedTo: 'Proc. of Asilomar conference on signals, systems, and computers 2011',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/6190192/',
-dateCreated: '2018-08-09 07:28:03.062Z'
+    dateCreated: '2018-08-09 07:28:03.062Z'
   },
   {
     type: 'Conference',
@@ -1287,7 +1288,7 @@ dateCreated: '2018-08-09 07:28:03.062Z'
     submittedTo: 'Proc. of IEEE international conference on communications (ICC) 2011',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/5963308/',
-dateCreated: '2018-08-09 07:27:03.062Z'
+    dateCreated: '2018-08-09 07:27:03.062Z'
   },
   {
     type: 'Conference',
@@ -1300,7 +1301,7 @@ dateCreated: '2018-08-09 07:27:03.062Z'
     submittedTo: 'Proc. of IEEE international conference on communications (ICC) 2011',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/5962966/',
-dateCreated: '2018-08-09 07:26:03.062Z'
+    dateCreated: '2018-08-09 07:26:03.062Z'
   },
   {
     type: 'Conference',
@@ -1312,7 +1313,7 @@ dateCreated: '2018-08-09 07:26:03.062Z'
     submittedTo: 'Proc. of Information Theory and Application Workshop (ITA) 2011',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/5743603/',
-dateCreated: '2018-08-09 07:25:03.062Z'
+    dateCreated: '2018-08-09 07:25:03.062Z'
   },
   {
     type: 'Conference',
@@ -1326,7 +1327,7 @@ dateCreated: '2018-08-09 07:25:03.062Z'
     submittedTo: 'Proc. of Summer school \'Ensage\' - Immersive and engaging interaction with VH on internet (LNCS) 2010',
     published: true,
     pdf: conference['conference38'],
-dateCreated: '2018-08-09 07:24:03.062Z'
+    dateCreated: '2018-08-09 07:24:03.062Z'
   },
   {
     type: 'Conference',
@@ -1339,7 +1340,7 @@ dateCreated: '2018-08-09 07:24:03.062Z'
     submittedTo: 'Proc. of IEEE GLOBECOM conference 2010',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/5684113/',
-dateCreated: '2018-08-09 07:23:03.062Z'
+    dateCreated: '2018-08-09 07:23:03.062Z'
   },
   {
     type: 'Conference',
@@ -1352,7 +1353,7 @@ dateCreated: '2018-08-09 07:23:03.062Z'
     submittedTo: 'Proc. of Information Theory and Applications Workshop (ITA) 2010',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/5454143/',
-dateCreated: '2018-08-09 07:22:03.062Z'
+    dateCreated: '2018-08-09 07:22:03.062Z'
   },
   {
     type: 'Conference',
@@ -1364,7 +1365,7 @@ dateCreated: '2018-08-09 07:22:03.062Z'
     submittedTo: 'Proc. of IEEE Personal indoor mobile radio communications (PIMRC) symposium 2010',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/5671878/',
-dateCreated: '2018-08-09 07:21:03.062Z'
+    dateCreated: '2018-08-09 07:21:03.062Z'
   },
   {
     type: 'Conference',
@@ -1378,7 +1379,7 @@ dateCreated: '2018-08-09 07:21:03.062Z'
     submittedTo: 'Proc. of IEEE international conference on communications (ICC) 2010',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/5502570/',
-dateCreated: '2018-08-09 07:20:03.062Z'
+    dateCreated: '2018-08-09 07:20:03.062Z'
   },
   {
     type: 'Conference',
@@ -1390,7 +1391,7 @@ dateCreated: '2018-08-09 07:20:03.062Z'
     submittedTo: 'Proc. of IEEE International conf. on acoustics, speech, and signal processing (ICASSP) 2010',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/5449968/',
-dateCreated: '2018-08-09 07:19:03.062Z'
+    dateCreated: '2018-08-09 07:19:03.062Z'
   },
   {
     type: 'Conference',
@@ -1403,7 +1404,7 @@ dateCreated: '2018-08-09 07:19:03.062Z'
     submittedTo: 'Proc. of Information Theory and Application Workshop (ITA) 2010',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/5454143/',
-dateCreated: '2018-08-09 07:18:03.062Z'
+    dateCreated: '2018-08-09 07:18:03.062Z'
   },
   {
     type: 'Conference',
@@ -1415,7 +1416,7 @@ dateCreated: '2018-08-09 07:18:03.062Z'
     submittedTo: 'Proc. of IEEE Personal indoor mobile radio communications (PIMRC) symposium 2009',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/5449968/',
-dateCreated: '2018-08-09 07:17:03.062Z'
+    dateCreated: '2018-08-09 07:17:03.062Z'
   },
   {
     type: 'Conference',
@@ -1428,7 +1429,7 @@ dateCreated: '2018-08-09 07:17:03.062Z'
     submittedTo: 'Proc. of IEEE GLOBECOM conference 2009',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/5426075/',
-dateCreated: '2018-08-09 07:16:03.062Z'
+    dateCreated: '2018-08-09 07:16:03.062Z'
   },
   {
     type: 'Conference',
@@ -1440,7 +1441,7 @@ dateCreated: '2018-08-09 07:16:03.062Z'
     submittedTo: 'Proc. of International conf. on acoustics, speech, and signal processing (ICASSP), vol. 1, pp. 2469-2472, April 2009',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/4960122/',
-dateCreated: '2018-08-09 07:15:03.062Z'
+    dateCreated: '2018-08-09 07:15:03.062Z'
   },
   {
     type: 'Conference',
@@ -1452,7 +1453,7 @@ dateCreated: '2018-08-09 07:15:03.062Z'
     submittedTo: 'Proc. of IEEE workshop on signal processing advances in wireless communications (SPAWC), vol. 1, pp. 668-671, June 2009',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/5161869/',
-dateCreated: '2018-08-09 07:14:03.062Z'
+    dateCreated: '2018-08-09 07:14:03.062Z'
   },
   {
     type: 'Conference',
@@ -1465,7 +1466,7 @@ dateCreated: '2018-08-09 07:14:03.062Z'
     submittedTo: 'Proc. of IEEE GLOBECOM conference, vol. 1, pp. 1-5, Dec. 2008',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/4698438/',
-dateCreated: '2018-08-09 07:13:03.062Z'
+    dateCreated: '2018-08-09 07:13:03.062Z'
   },
   {
     type: 'Conference',
@@ -1477,7 +1478,7 @@ dateCreated: '2018-08-09 07:13:03.062Z'
     ],
     submittedTo: 'Proc. of International conf. on electronics and information, and communication (ICEIC), vol. 1, pp. 11-14, June 2008',
     published: true,
-dateCreated: '2018-08-09 07:12:03.062Z'
+    dateCreated: '2018-08-09 07:12:03.062Z'
   },
   {
     type: 'Conference',
@@ -1491,7 +1492,7 @@ dateCreated: '2018-08-09 07:12:03.062Z'
     submittedTo: 'Proc. of IEEE sensor array and multichannel signal processing workshop (SAM) vol. 1, pp. 41-44, July 2008',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/4606820/',
-dateCreated: '2018-08-09 07:11:03.062Z'
+    dateCreated: '2018-08-09 07:11:03.062Z'
   },
   {
     type: 'Conference',
@@ -1503,7 +1504,7 @@ dateCreated: '2018-08-09 07:11:03.062Z'
     submittedTo: 'Proc. of IEEE workshop on signal processing advances in wireless communications (SPAWC), vol. 1, pp. 1012-105, June 2007',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/4401321/',
-dateCreated: '2018-08-09 07:10:03.062Z'
+    dateCreated: '2018-08-09 07:10:03.062Z'
   },
   {
     type: 'Conference',
@@ -1515,7 +1516,7 @@ dateCreated: '2018-08-09 07:10:03.062Z'
     submittedTo: 'Proc. of International symposium on circuits and systems (ISCAS), vol. 1, pp. 158-161, May 2005',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/1465964/',
-dateCreated: '2018-08-09 07:09:03.062Z'
+    dateCreated: '2018-08-09 07:09:03.062Z'
   },
   {
     type: 'Conference',
@@ -1529,7 +1530,7 @@ dateCreated: '2018-08-09 07:09:03.062Z'
     submittedTo: 'Proc. of International conf. on acoustics, speech, and signal processing (ICASSP), vol. 2, pp. 238-241, April 2005',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/1416113/',
-dateCreated: '2018-08-09 07:08:03.062Z'
+    dateCreated: '2018-08-09 07:08:03.062Z'
   },
   {
     type: 'Conference',
@@ -1542,7 +1543,7 @@ dateCreated: '2018-08-09 07:08:03.062Z'
     submittedTo: 'Proc. of IEEE workshop on signal processing systems and implementation (SiPS), vol. 1, pp. 331-336, Oct. 2004',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/1363072/',
-dateCreated: '2018-08-09 07:07:03.062Z'
+    dateCreated: '2018-08-09 07:07:03.062Z'
   },
   {
     type: 'Conference',
@@ -1555,7 +1556,7 @@ dateCreated: '2018-08-09 07:07:03.062Z'
     submittedTo: 'Proc. of Asilomar conference, pp. 1493-1497, Nov. 2003',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/1292234/',
-dateCreated: '2018-08-09 07:06:03.062Z'
+    dateCreated: '2018-08-09 07:06:03.062Z'
   },
   {
     type: 'Conference',
@@ -1567,7 +1568,7 @@ dateCreated: '2018-08-09 07:06:03.062Z'
     submittedTo: 'Proc. of international symp. on circuits and systems (ISCAS), vol. 3, pp. 357-400, May 2003',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/1205786/',
-dateCreated: '2018-08-09 07:05:03.062Z'
+    dateCreated: '2018-08-09 07:05:03.062Z'
   },
   {
     type: 'Conference',
@@ -1579,7 +1580,7 @@ dateCreated: '2018-08-09 07:05:03.062Z'
     submittedTo: 'Proc. of Asilomar conference on signals, systems, and computers, vol. 1, pp. 148-152, Nov. 2001 (Invited)',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/986896/',
-dateCreated: '2018-08-09 07:04:03.062Z'
+    dateCreated: '2018-08-09 07:04:03.062Z'
   },
   {
     type: 'Conference',
@@ -1591,7 +1592,7 @@ dateCreated: '2018-08-09 07:04:03.062Z'
     submittedTo: 'Proc. of IEEE TENCON, vol. 1, pp. 259-262, 1999',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/818399/',
-dateCreated: '2018-08-09 07:03:03.062Z'
+    dateCreated: '2018-08-09 07:03:03.062Z'
   },
   {
     type: 'Conference',
@@ -1603,7 +1604,7 @@ dateCreated: '2018-08-09 07:03:03.062Z'
     submittedTo: 'Proc. of IEEE GLOBECOM conference, vol. 1a, pp. 158-162, 1999',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/831627/',
-dateCreated: '2018-08-09 07:02:03.062Z'
+    dateCreated: '2018-08-09 07:02:03.062Z'
   },
   {
     type: 'Conference',
@@ -1615,7 +1616,7 @@ dateCreated: '2018-08-09 07:02:03.062Z'
     submittedTo: 'Proc. of international conf. on image proc. (ICIP), vol. 1, pp. 779-782, 1997',
     published: true,
     pdfPath: 'https://ieeexplore.ieee.org/document/648078/',
-dateCreated: '2018-08-09 07:01:03.062Z'
+    dateCreated: '2018-08-09 07:01:03.062Z'
   },
 ];
 

@@ -45,7 +45,7 @@ classSchema.statics = {
     return this.findById({ _id: id }).exec(cb);
   },
   getPaperType(type, cb) {
-    return this.find({ type }).exec(cb);
+    return this.find({ type }).sort('-dateCreated').exec(cb);
   },
   getAll(cb) {
     return this.find({}).sort('-dateCreated').exec(cb);
