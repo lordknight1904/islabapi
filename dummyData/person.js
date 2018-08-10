@@ -1,8 +1,9 @@
 import fs from 'fs';
 
 function base64_encode(file) {
-  return fs.readFileSync(__dirname + `/member/${file}`, {encoding: 'base64'});
+  return fs.readFileSync(__dirname + `/member/${file}`, { encoding: 'base64' });
 }
+
 const memberArr = [
   'DiZhang.jpg',
   'guyoung.jpg',
@@ -36,7 +37,8 @@ const person = [
     occupation: '',
     image: image['TangJianhua.JPG'],
     imageName: 'TangJianhua.JPG',
-    profilePage: 'https://sites.google.com/site/ericjianhuatang/'
+    profilePage: 'https://sites.google.com/site/ericjianhuatang/',
+    dateCreated: '2018-08-09 09:00:03.062Z'
   },
   {
     graduated: false,
@@ -48,7 +50,8 @@ const person = [
     occupation: '',
     image: image['DiZhang.jpg'],
     imageName: 'DiZhang.jpg',
-    profilePage: ''
+    profilePage: '',
+    dateCreated: '2018-08-09 08:59:03.062Z'
   },
   {
     graduated: false,
@@ -61,7 +64,8 @@ const person = [
     image: image['Luong.jpg'],
     imageName: 'Luong.jpg',
     profilePage: '',
-    address: '1117 Bldg. 301, SNU'
+    address: '1117 Bldg. 301, SNU',
+    dateCreated: '2018-08-09 08:58:03.062Z'
   },
   {
     graduated: false,
@@ -74,7 +78,8 @@ const person = [
     image: image['Sangtae.png'],
     imageName: 'Sangtae.png',
     profilePage: '',
-    address: '1117 Bldg. 301, SNU'
+    address: '1117 Bldg. 301, SNU',
+    dateCreated: '2018-08-09 08:57:03.062Z'
   },
   {
     graduated: false,
@@ -86,7 +91,8 @@ const person = [
     occupation: '',
     image: image['hj.JPG'],
     imageName: 'hj.JPG',
-    profilePage: ''
+    profilePage: '',
+    dateCreated: '2018-08-09 08:56:03.062Z'
   },
   {
     graduated: false,
@@ -98,7 +104,8 @@ const person = [
     occupation: '',
     image: image['jh.jpg'],
     imageName: 'jh.jpg',
-    profilePage: ''
+    profilePage: '',
+    dateCreated: '2018-08-09 08:55:03.062Z'
   },
   {
     graduated: false,
@@ -110,7 +117,8 @@ const person = [
     occupation: '',
     image: image['wonjun.jpg'],
     imageName: 'wonjun.jpg',
-    profilePage: ''
+    profilePage: '',
+    dateCreated: '2018-08-09 08:54:03.062Z'
   },
   {
     graduated: false,
@@ -122,7 +130,8 @@ const person = [
     occupation: '',
     image: image['guyoung.jpg'],
     imageName: 'guyoung.jpg',
-    profilePage: ''
+    profilePage: '',
+    dateCreated: '2018-08-09 08:53:03.062Z'
   },
   {
     graduated: false,
@@ -134,7 +143,8 @@ const person = [
     occupation: '',
     image: image['seungnyun.jpg'],
     imageName: 'seungnyun.jpg',
-    profilePage: ''
+    profilePage: '',
+    dateCreated: '2018-08-09 08:52:03.062Z'
   },
   {
     graduated: false,
@@ -147,7 +157,8 @@ const person = [
     image: image['junhan.jpg'],
     imageName: 'junhan.jpg',
     profilePage: '',
-    address: '1117 Bldg. 301, SNU'
+    address: '1117 Bldg. 301, SNU',
+    dateCreated: '2018-08-09 08:51:03.062Z'
   },
   {
     graduated: false,
@@ -159,7 +170,8 @@ const person = [
     occupation: '',
     image: image['seunghwan.jpg'],
     imageName: 'seunghwan.jpg',
-    profilePage: ''
+    profilePage: '',
+    dateCreated: '2018-08-09 08:50:03.062Z'
   },
   {
     graduated: false,
@@ -172,7 +184,8 @@ const person = [
     image: image['hyunkyu.png'],
     imageName: 'hyunkyu.png',
     profilePage: '',
-    address: '1117 Bldg. 301, SNU'
+    address: '1117 Bldg. 301, SNU',
+    dateCreated: '2018-08-09 08:49:03.062Z'
   },
   {
     graduated: false,
@@ -185,7 +198,8 @@ const person = [
     image: image['kwangjin.png'],
     imageName: 'kwangjin.png',
     profilePage: '',
-    address: '1117 Bldg. 301, SNU'
+    address: '1117 Bldg. 301, SNU',
+    dateCreated: '2018-08-09 08:48:03.062Z'
   },
   {
     graduated: false,
@@ -197,7 +211,8 @@ const person = [
     occupation: '',
     image: image['yongjun.jpg'],
     imageName: 'yongjun.jpg',
-    profilePage: ''
+    profilePage: '',
+    dateCreated: '2018-08-09 08:47:03.062Z'
   },
   {
     graduated: false,
@@ -209,9 +224,9 @@ const person = [
     occupation: '',
     image: image['junwon.jpg'],
     imageName: 'junwon.jpg',
-    profilePage: ''
+    profilePage: '',
+    dateCreated: '2018-08-09 08:46:03.062Z'
   },
-
   {
     graduated: true,
     name: 'Heejin Seo',
@@ -222,6 +237,7 @@ const person = [
     occupation: 'Samsung Electronics',
     image: '',
     profilePage: '',
+    dateCreated: '2018-08-09 08:45:03.062Z'
   },
   {
     graduated: true,
@@ -233,6 +249,7 @@ const person = [
     occupation: 'Professor in NUIST, China',
     image: '',
     profilePage: 'http://dxy.nuist.edu.cn/Teacher.aspx?T=002785',
+    dateCreated: '2018-08-09 08:44:03.062Z'
   },
   {
     graduated: true,
@@ -244,6 +261,7 @@ const person = [
     occupation: 'Samsung Electronics',
     image: '',
     profilePage: '',
+    dateCreated: '2018-08-09 08:43:03.062Z'
   },
   {
     graduated: true,
@@ -255,6 +273,7 @@ const person = [
     occupation: 'ETRI',
     image: '',
     profilePage: '',
+    dateCreated: '2018-08-09 08:42:03.062Z'
   },
   {
     graduated: true,
@@ -266,6 +285,7 @@ const person = [
     occupation: 'Hanwha Systems',
     image: '',
     profilePage: '',
+    dateCreated: '2018-08-09 08:41:03.062Z'
   },
   {
     graduated: true,
@@ -277,6 +297,7 @@ const person = [
     occupation: 'Samsung Electronics',
     image: '',
     profilePage: '',
+    dateCreated: '2018-08-09 08:40:03.062Z'
   },
   {
     graduated: true,
@@ -288,6 +309,7 @@ const person = [
     occupation: 'Samsung Display',
     image: '',
     profilePage: 'http://islab.snu.ac.kr/shkwon/',
+    dateCreated: '2018-08-09 08:39:03.062Z'
   },
   {
     graduated: true,
@@ -299,6 +321,7 @@ const person = [
     occupation: 'Samsung Electronics',
     image: '',
     profilePage: '',
+    dateCreated: '2018-08-09 08:38:03.062Z'
   },
   {
     graduated: true,
@@ -310,6 +333,7 @@ const person = [
     occupation: 'Professor in Fudan University, China',
     image: '',
     profilePage: 'https://sites.google.com/site/jianwanghomepage/',
+    dateCreated: '2018-08-09 08:37:03.062Z'
   },
   {
     graduated: true,
@@ -321,6 +345,7 @@ const person = [
     occupation: 'CTO, Aradnetworks',
     image: '',
     profilePage: '',
+    dateCreated: '2018-08-09 08:36:03.062Z'
   },
   {
     graduated: true,
@@ -332,6 +357,7 @@ const person = [
     occupation: 'Samsung Electronics',
     image: '',
     profilePage: '',
+    dateCreated: '2018-08-09 08:35:03.062Z'
   },
   {
     graduated: true,
@@ -343,6 +369,7 @@ const person = [
     occupation: 'Samsung Electronics',
     image: '',
     profilePage: '',
+    dateCreated: '2018-08-09 08:34:03.062Z'
   },
   {
     graduated: true,
@@ -354,6 +381,7 @@ const person = [
     occupation: 'Samsung Electronics',
     image: '',
     profilePage: '',
+    dateCreated: '2018-08-09 08:33:03.062Z'
   },
   {
     graduated: true,
@@ -365,6 +393,7 @@ const person = [
     occupation: 'Korean Air',
     image: '',
     profilePage: '',
+    dateCreated: '2018-08-09 08:32:03.062Z'
   },
   {
     graduated: true,
@@ -376,6 +405,7 @@ const person = [
     occupation: 'Samsung Electronics',
     image: '',
     profilePage: '',
+    dateCreated: '2018-08-09 08:31:03.062Z'
   },
   {
     graduated: true,
@@ -387,6 +417,7 @@ const person = [
     occupation: 'LG Electronics',
     image: '',
     profilePage: '',
+    dateCreated: '2018-08-09 08:30:03.062Z'
   },
 ];
 
