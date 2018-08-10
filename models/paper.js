@@ -48,7 +48,7 @@ classSchema.statics = {
     return this.find({ type }).exec(cb);
   },
   getAll(cb) {
-    return this.find({}).exec(cb);
+    return this.find({}).sort('-dateCreated').exec(cb);
   },
   add(obj, cb) {
     return this.create(obj, cb);
