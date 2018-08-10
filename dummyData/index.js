@@ -30,7 +30,7 @@ export default function dummyData() {
         name: paper.name,
         authors: paper.authors,
         submittedTo: paper.submittedTo,
-        dateCreated: new Date(cr.dateCreated),
+        dateCreated: new Date(paper.dateCreated),
         pdfPath: paper.pdfPath ? paper.pdfPath : (pdfPath !== '' ? `http://islab.snu.ac.kr/${pdfPath}` : ''),
         zip: zipPath !== '' ? `http://islab.snu.ac.kr/${zipPath}` : '',
       });
