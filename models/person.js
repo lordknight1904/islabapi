@@ -51,7 +51,7 @@ personSchema.plugin(uniqueValidator, { message: 'This {PATH} has been taken.' })
 
 personSchema.statics = {
   getPersonType(graduated, cb) {
-    return this.find({ graduated: graduated === '1' }).sort('-dateCreated').exec(cb);
+    return this.find({ graduated: graduated === '1' }).sort('dateCreated').exec(cb);
   },
   get(id, cb) {
     return this.findById({ _id: id }).exec(cb);
