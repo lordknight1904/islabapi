@@ -6,7 +6,7 @@ import uniqueValidator from 'mongoose-unique-validator';
 const Schema = mongoose.Schema;
 
 const classSchema = new Schema({
-  published: { type: Boolean, default: true },
+  published: { type: 'String', default: '0' },
   type: {
     type: 'String',
     trim: true,
@@ -18,6 +18,13 @@ const classSchema = new Schema({
     required: [true, 'Name must be provided.'],
     minlength: [1, 'Name must be provided'],
     maxlength: [500, 'Name must contains less than 500 characters.'],
+  },
+  detail: {
+    type: 'String',
+    trim: true,
+    required: [true, 'Detail must be provided.'],
+    minlength: [1, 'Detail must be provided'],
+    maxlength: [500, 'Detail must contains less than 500 characters.'],
   },
   authors: [
     {

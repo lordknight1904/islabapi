@@ -17,17 +17,18 @@ export default function dummyData() {
     const papers = paper.map((paper, index) => {
       let pdfPath = '', zipPath = '';
       if (paper.pdf) {
-        pdfPath = `file/${cuid()}.pdf`;
+        pdfPath = `file/${paper.name.replace(/\s+/g, '_').toLowerCase()}.pdf`;
         fs.writeFileSync(pdfPath, paper.pdf, { encoding: 'base64' });
       }
       if (paper.zip) {
-        zipPath = `file/${cuid()}.zip`;
+        zipPath = `file/${paper.name.replace(/\s+/g, '_').toLowerCase()}.zip`;
         fs.writeFileSync(zipPath, paper.zip, { encoding: 'base64' });
       }
       return new Paper({
         published: paper.published,
         type: paper.type,
         name: paper.name,
+        detail: paper.detail,
         authors: paper.authors,
         submittedTo: paper.submittedTo,
         dateCreated: new Date(paper.dateCreated),
