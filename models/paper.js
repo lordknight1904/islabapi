@@ -22,9 +22,7 @@ const classSchema = new Schema({
   detail: {
     type: 'String',
     trim: true,
-    required: [true, 'Detail must be provided.'],
-    minlength: [1, 'Detail must be provided'],
-    maxlength: [500, 'Detail must contains less than 500 characters.'],
+    default: '',
   },
   authors: [
     {
